@@ -1,0 +1,6 @@
+Coisas a fazer:
+
+[] Criar o campo;
+[] Criar o acesso aos txt que contêm o campo;
+[] Criar os métodos que verificam se o jogador venceu;
+[] Criar a interação jogo-jogador;
