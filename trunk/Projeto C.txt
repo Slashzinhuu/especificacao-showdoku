@@ -1,0 +1,631 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int testa_q1 (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0;
+    for (i=0;i<3;i++)
+        for (j=0;j<3;j++)
+        {
+            if (sudoku[i][j]==1)
+            cont1++;
+            if (sudoku[i][j]==2)
+            cont2++;
+            if (sudoku[i][j]==3)
+            cont3++;
+            if (sudoku[i][j]==4)
+            cont4++;
+            if (sudoku[i][j]==5)
+            cont5++;
+            if (sudoku[i][j]==6)
+            cont6++;
+            if (sudoku[i][j]==7)
+            cont7++;
+            if (sudoku[i][j]==8)
+            cont8++;
+            if (sudoku[i][j]==9)
+            cont9++;
+        }
+    if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+        return 1;
+    return 0;
+}
+
+int testa_q2 (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0;
+    for (i=0;i<3;i++)
+        for (j=3;j<6;j++)
+        {
+            if (sudoku[i][j]==1)
+            cont1++;
+            if (sudoku[i][j]==2)
+            cont2++;
+            if (sudoku[i][j]==3)
+            cont3++;
+            if (sudoku[i][j]==4)
+            cont4++;
+            if (sudoku[i][j]==5)
+            cont5++;
+            if (sudoku[i][j]==6)
+            cont6++;
+            if (sudoku[i][j]==7)
+            cont7++;
+            if (sudoku[i][j]==8)
+            cont8++;
+            if (sudoku[i][j]==9)
+            cont9++;
+        }
+    if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+        return 1;
+    return 0;
+}
+
+int testa_q3 (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0;
+    for (i=0;i<3;i++)
+        for (j=6;j<9;j++)
+        {
+            if (sudoku[i][j]==1)
+            cont1++;
+            if (sudoku[i][j]==2)
+            cont2++;
+            if (sudoku[i][j]==3)
+            cont3++;
+            if (sudoku[i][j]==4)
+            cont4++;
+            if (sudoku[i][j]==5)
+            cont5++;
+            if (sudoku[i][j]==6)
+            cont6++;
+            if (sudoku[i][j]==7)
+            cont7++;
+            if (sudoku[i][j]==8)
+            cont8++;
+            if (sudoku[i][j]==9)
+            cont9++;
+        }
+    if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+        return 1;
+    return 0;
+}
+
+int testa_q4 (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0;
+    for (i=3;i<6;i++)
+        for (j=0;j<3;j++)
+        {
+            if (sudoku[i][j]==1)
+            cont1++;
+            if (sudoku[i][j]==2)
+            cont2++;
+            if (sudoku[i][j]==3)
+            cont3++;
+            if (sudoku[i][j]==4)
+            cont4++;
+            if (sudoku[i][j]==5)
+            cont5++;
+            if (sudoku[i][j]==6)
+            cont6++;
+            if (sudoku[i][j]==7)
+            cont7++;
+            if (sudoku[i][j]==8)
+            cont8++;
+            if (sudoku[i][j]==9)
+            cont9++;
+        }
+    if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+        return 1;
+    return 0;
+}
+
+int testa_q5 (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0;
+    for (i=3;i<6;i++)
+        for (j=3;j<6;j++)
+        {
+            if (sudoku[i][j]==1)
+            cont1++;
+            if (sudoku[i][j]==2)
+            cont2++;
+            if (sudoku[i][j]==3)
+            cont3++;
+            if (sudoku[i][j]==4)
+            cont4++;
+            if (sudoku[i][j]==5)
+            cont5++;
+            if (sudoku[i][j]==6)
+            cont6++;
+            if (sudoku[i][j]==7)
+            cont7++;
+            if (sudoku[i][j]==8)
+            cont8++;
+            if (sudoku[i][j]==9)
+            cont9++;
+        }
+    if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+        return 1;
+    return 0;
+}
+
+int testa_q6 (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0;
+    for (i=3;i<6;i++)
+        for (j=6;j<9;j++)
+        {
+            if (sudoku[i][j]==1)
+            cont1++;
+            if (sudoku[i][j]==2)
+            cont2++;
+            if (sudoku[i][j]==3)
+            cont3++;
+            if (sudoku[i][j]==4)
+            cont4++;
+            if (sudoku[i][j]==5)
+            cont5++;
+            if (sudoku[i][j]==6)
+            cont6++;
+            if (sudoku[i][j]==7)
+            cont7++;
+            if (sudoku[i][j]==8)
+            cont8++;
+            if (sudoku[i][j]==9)
+            cont9++;
+        }
+    if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+        return 1;
+    return 0;
+}
+
+int testa_q7 (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0;
+    for (i=6;i<9;i++)
+        for (j=0;j<3;j++)
+        {
+            if (sudoku[i][j]==1)
+            cont1++;
+            if (sudoku[i][j]==2)
+            cont2++;
+            if (sudoku[i][j]==3)
+            cont3++;
+            if (sudoku[i][j]==4)
+            cont4++;
+            if (sudoku[i][j]==5)
+            cont5++;
+            if (sudoku[i][j]==6)
+            cont6++;
+            if (sudoku[i][j]==7)
+            cont7++;
+            if (sudoku[i][j]==8)
+            cont8++;
+            if (sudoku[i][j]==9)
+            cont9++;
+        }
+    if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+        return 1;
+    return 0;
+}
+
+int testa_q8 (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0;
+    for (i=6;i<9;i++)
+        for (j=3;j<6;j++)
+        {
+            if (sudoku[i][j]==1)
+            cont1++;
+            if (sudoku[i][j]==2)
+            cont2++;
+            if (sudoku[i][j]==3)
+            cont3++;
+            if (sudoku[i][j]==4)
+            cont4++;
+            if (sudoku[i][j]==5)
+            cont5++;
+            if (sudoku[i][j]==6)
+            cont6++;
+            if (sudoku[i][j]==7)
+            cont7++;
+            if (sudoku[i][j]==8)
+            cont8++;
+            if (sudoku[i][j]==9)
+            cont9++;
+        }
+    if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+        return 1;
+    return 0;
+}
+
+int testa_q9 (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0;
+    for (i=6;i<9;i++)
+        for (j=6;j<9;j++)
+        {
+            if (sudoku[i][j]==1)
+            cont1++;
+            if (sudoku[i][j]==2)
+            cont2++;
+            if (sudoku[i][j]==3)
+            cont3++;
+            if (sudoku[i][j]==4)
+            cont4++;
+            if (sudoku[i][j]==5)
+            cont5++;
+            if (sudoku[i][j]==6)
+            cont6++;
+            if (sudoku[i][j]==7)
+            cont7++;
+            if (sudoku[i][j]==8)
+            cont8++;
+            if (sudoku[i][j]==9)
+            cont9++;
+        }
+    if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+        return 1;
+    return 0;
+}
+
+int testa_l (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0, linhas=0;
+    for (i=0;i<9;i++)
+    {
+        for (j=0;j<9;j++)
+        {
+            if (sudoku[i][j]==1)
+            cont1++;
+            if (sudoku[i][j]==2)
+            cont2++;
+            if (sudoku[i][j]==3)
+            cont3++;
+            if (sudoku[i][j]==4)
+            cont4++;
+            if (sudoku[i][j]==5)
+            cont5++;
+            if (sudoku[i][j]==6)
+            cont6++;
+            if (sudoku[i][j]==7)
+            cont7++;
+            if (sudoku[i][j]==8)
+            cont8++;
+            if (sudoku[i][j]==9)
+            cont9++;
+        }
+        if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+            linhas++;
+        if (linhas==9)
+            return 1;
+        cont1=0;
+        cont2=0;
+        cont3=0;
+        cont4=0;
+        cont5=0;
+        cont6=0;
+        cont7=0;
+        cont8=0;
+        cont9=0;
+    }
+    return 0;
+}
+
+int testa_c (int sudoku[9][9])
+{
+    int i, j, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0, cont7=0, cont8=0, cont9=0, colunas=0;
+    for (i=0;i<9;i++)
+    {
+        for (j=0;j<9;j++)
+        {
+            if (sudoku[j][i]==1)
+            cont1++;
+            if (sudoku[j][i]==2)
+            cont2++;
+            if (sudoku[j][i]==3)
+            cont3++;
+            if (sudoku[j][i]==4)
+            cont4++;
+            if (sudoku[j][i]==5)
+            cont5++;
+            if (sudoku[j][i]==6)
+            cont6++;
+            if (sudoku[j][i]==7)
+            cont7++;
+            if (sudoku[j][i]==8)
+            cont8++;
+            if (sudoku[j][i]==9)
+            cont9++;
+        }
+        if ((cont1==1) && (cont2==1) && (cont3==1) && (cont4==1) && (cont5==1) && (cont6==1) && (cont7==1) && (cont8==1) && (cont9==1))
+            colunas++;
+        if (colunas==9)
+            return 1;
+        cont1=0;
+        cont2=0;
+        cont3=0;
+        cont4=0;
+        cont5=0;
+        cont6=0;
+        cont7=0;
+        cont8=0;
+        cont9=0;
+    }
+    return 0;
+}
+
+int acabou (int sudoku[9][9])
+{
+    if ((testa_q1(sudoku)==1) && (testa_q2(sudoku)==1) && (testa_q3(sudoku)==1) && (testa_q4(sudoku)==1) && (testa_q5(sudoku)==1) && (testa_q6(sudoku)==1) && (testa_q7(sudoku)==1) && (testa_q8(sudoku)==1) && (testa_q9(sudoku)==1) && (testa_l(sudoku)==1) && (testa_c(sudoku)==1))
+        return 1;
+    return 0;
+}
+int errado (int sudoku[9][9])
+{
+    int i, j, cont0=0;
+    for (i=0;i<9;i++)
+        for (j=0;j<9;j++)
+            if (sudoku[i][j]==0)
+                cont0++;
+    if (cont0==0)
+        return 1;
+    return 0;
+
+}
+
+int testa_posicao (int *jogo, int m, int n, int sudoku[9][9])
+{
+    jogo=&sudoku[m][n];
+    if (*jogo==0)
+        return 1;
+    return 0;
+}
+
+void mostra_campo (int sudoku[9][9], int *jogo)
+{
+    int i, j;
+    jogo=&sudoku[0][0];
+    printf ("\n\nA tabela esta assim: \n");
+    for (i=0;i<9;i++)
+    {
+        printf ("\n");
+        for (j=0;j<9;j++)
+        {
+            printf ("%d ",*jogo);
+            if ((j==2) || (j==5))
+                printf (" ");
+            jogo++;
+        }
+        if ((i==2) || (i==5))
+            printf ("\n");
+    }
+    jogo=&sudoku[0][0];
+}
+
+void nivel_selec (int nivel[9][9], int jogo[9][9])
+{
+    int i, j;
+    for (i=0;i<9;i++)
+        for (j=0;j<9;j++)
+            jogo[i][j]=nivel[i][j];
+}
+
+void cria_rosto (int sudoku[9][9], int rosto[9][9])
+{
+    int i, j;
+    for (i=0;i<9;i++)
+        for (j=0;j<9;j++)
+            {
+                if (sudoku[i][j]!=0)
+                    rosto[i][j]=1;
+            }
+}
+
+void jogando (int m, int n, int sudoku[9][9], int jogada)
+{
+    sudoku[m][n]=jogada;
+}
+
+typedef struct
+{
+    char nome[50];
+    int idade;
+    int sexo;
+    int jogoufacil;
+    int jogounormal;
+    int jogoudificil;
+    int ganhoufacil;
+    int ganhounormal;
+    int ganhoudificil;
+    int perdeufacil;
+    int perdeunormal;
+    int perdeudificil;
+}reg1;
+
+int main ()
+{
+    int i, j, nivel, *jogo, n, m, jogada, apto, novojogo=1, continua=1;
+    int facil[9][9] =  {{9, 4, 0, 1, 6, 2, 3, 5, 8},
+                        {6, 1, 0, 8, 5, 7, 9, 2, 4},
+                        {8, 5, 2, 4, 9, 3, 1, 7, 6},
+                        {1, 2, 9, 3, 8, 4, 5, 6, 7},
+                        {5, 7, 8, 9, 2, 6, 4, 3, 1},
+                        {3, 6, 4, 7, 1, 5, 2, 8, 9},
+                        {2, 9, 1, 6, 3, 8, 7, 4, 5},
+                        {7, 8, 5, 2, 4, 1, 6, 9, 3},
+                        {4, 3, 6, 5, 7, 9, 8, 1, 2}};
+
+
+    int normal[9][9] = {{5, 0, 0, 3, 2, 0, 0, 6, 0},
+                        {2, 0, 9, 0, 0, 0, 0, 4, 0},
+                        {0, 0, 0, 1, 0, 4, 0, 0, 0},
+                        {0, 2, 0, 0, 0, 5, 4, 0, 6},
+                        {0, 0, 5, 0, 0, 0, 2, 0, 0},
+                        {4, 0, 3, 8, 0, 0, 0, 7, 0},
+                        {0, 0, 0, 2, 0, 6, 0, 0, 0},
+                        {0, 6, 0, 0, 0, 0, 1, 0, 4},
+                        {0, 5, 0, 0, 7, 1, 0, 0, 9}};
+
+    int dificil[9][9] ={{7, 0, 0, 0, 9, 0, 0, 0, 0},
+                        {0, 2, 0, 0, 8, 0, 6, 0, 0},
+                        {0, 0, 8, 6, 0, 0, 0, 2, 1},
+                        {0, 4, 2, 0, 1, 0, 0, 0, 6},
+                        {6, 0, 0, 0, 0, 0, 0, 0, 9},
+                        {1, 0, 0, 0, 2, 0, 4, 3, 0},
+                        {9, 6, 0, 0, 0, 4, 3, 0, 0},
+                        {0, 0, 7, 0, 6, 0, 0, 8, 0},
+                        {0, 0, 0, 0, 5, 0, 0, 0, 7}};
+
+    int real[9][9]  =  {{0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0}};
+
+    int rosto[9][9]=   {{0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0},
+                        {0, 0, 0, 0, 0, 0, 0, 0, 0}};
+
+    reg1 cadastro;
+    cadastro.jogoufacil=0;
+    cadastro.jogounormal=0;
+    cadastro.jogoudificil=0;
+    cadastro.ganhoufacil=0;
+    cadastro.ganhounormal=0;
+    cadastro.ganhoudificil=0;
+    cadastro.perdeufacil=0;
+    cadastro.perdeunormal=0;
+    cadastro.perdeudificil=0;
+    printf ("\nOla, bem-vindo(a) ao Showdoku versao demo.\nEsta versao conta com tres quebra-cabecas diferentes sendo um\nde cada nivel de dificuldade.\nVamos comecar com um pequenino questionario.\nNome (ate 50 caracteres): ");
+    scanf ("%s",&cadastro.nome);
+    printf ("\nIdade: ");
+    scanf ("%d",&cadastro.idade);
+    printf ("\nSexo (1-Masculino, 2-Feminino): ");
+    scanf ("%d",&cadastro.sexo);
+    while ((cadastro.sexo<1) || (cadastro.sexo>2))
+    {
+        printf ("\nO sexo deve ser marcado como 1 para masculino ou 2 para feminino.");
+        printf ("\nSexo (1-Masculino, 2-Feminino): ");
+        scanf ("%s",&cadastro.sexo);
+    }
+    printf ("\nOk, vamos comecar o jogo. Selecione a dificuldade desejada:\n1-Facil\n2-Normal\n3-SouFoda\nE ai, qual vai ser? ");
+    while (novojogo==1)
+    {
+        scanf ("%d",&nivel);
+        while ((nivel<1) && nivel>3)
+        {
+            printf ("\nNao captei, o nivel deve variar de 1 a 3.\nQual sera o nivel?  ");
+            scanf ("%d",&nivel);
+        }
+        printf ("\nOk! Jogo escolhido. Carregando... 100%%\n");
+        if (nivel==1)
+        {
+            nivel_selec(facil, real);
+            cadastro.jogoufacil++;
+        }
+        if (nivel==2)
+        {
+            nivel_selec(normal, real);
+            cadastro.jogounormal++;
+        }
+        if (nivel==3)
+        {
+            nivel_selec(dificil, real);
+            cadastro.jogoudificil++;
+        }
+        cria_rosto(real, rosto);
+        while (continua==1)
+        {
+            mostra_campo(real, jogo);
+            printf ("\n\nPara jogar, comece digitando o numero correspondente a\nlinha que quer jogar (de um a nove), depois\no numero correspondente a coluna(de um a nove)\nLembre-se: so pode jogar onde tem zero\n");
+            apto=1;
+            while (apto==1)
+            {
+                printf ("\nlinha: ");
+                scanf ("%d",&m);
+                m--;
+                while ((m<0) || (m>8))
+                {
+                    printf ("\nlinha nao existe, tente novamente: ");
+                    scanf ("%d",&m);
+                    m--;
+                }
+                printf ("\ncoluna: ");
+                scanf ("%d",&n);
+                n--;
+                while ((n<0) || (n>8))
+                {
+                    printf ("\ncoluna nao existe, tente novamente: ");
+                    scanf ("%d",&n);
+                    n--;
+                }
+                if ((testa_posicao(jogo, m, n, rosto))==1)
+                {
+                    printf ("\nPosicao valida, que numero quer colocar ai? ");
+                    apto=0;
+                }
+                if ((testa_posicao(jogo, m, n, rosto))!=1)
+                {
+                    printf ("\nPosicao invalida, so pode jogar onde estava marcado com zero no inicio da partida. Tente novamente.");
+                }
+            }
+            scanf ("%d",&jogada);
+            while ((jogada<1) || (jogada >9))
+            {
+                printf ("\nSua jogada deve ser entre um e nove\nTente novamente: ");
+                scanf ("%d",&jogada);
+            }
+            jogando (m, n, real, jogada);
+                if (acabou(real)==1)
+                {
+                    continua=0;
+                    printf ("\nParabens, voce venceu!\n\n\n\n\n        (YOU WIN! \\O/)\n\n\n\n\n");
+                    if (nivel==1)
+                        cadastro.ganhoufacil++;
+                    if (nivel==2)
+                        cadastro.ganhounormal++;
+                    if (nivel==3)
+                        cadastro.ganhoudificil++;
+                }
+
+                if ((errado(real)==1) && (continua==1))
+                {
+                    printf ("\n\nDesculpe, seu jogo esta incorreto. Voce perdeu. \n\n\n\n\n        (YOU LOSE!)\n\n\n\n\n");
+                    if (nivel==1)
+                        cadastro.perdeufacil++;
+                    if (nivel==2)
+                        cadastro.perdeunormal++;
+                    if (nivel==3)
+                        cadastro.perdeudificil++;
+                    continua=0;
+                }
+        }
+        printf ("\nDeseja iniciar uma nova partida?\n1-Vamo\n2-Vish.. Vo nada!\nVamo ou num vamo?");
+        scanf ("%d",&novojogo);
+        if (novojogo==1)
+        {
+            printf ("\nOk, vamos comecar uma nova partida.\nQue nivel gostaria de jogar desta vez?\n1-Facil\n2-Normal\n3-Dificil\nE ai, qual vai ser?  ");
+            continua=1;
+        }
+        if (novojogo==2)
+        {
+            printf ("\nVish, arregou!");
+            printf ("\n\n\nDados:\nNome: %s\nIdade: %d\nSexo: %c\n\nPartidas Jogadas:\n--------------\nFacil: %d\nNormal: %d\nDificil: %d\nTotal: %d\n\nPartidas Vencidas:\n--------------\nFacil: %d\nNormal: %d\nDificil: %d\nTotal: %d\n\nPartidas Perdidas:\n--------------\nFacil: %d\nNormal: %d\nDificil: %d\nTotal: %d\n\n",cadastro.nome, cadastro.idade, cadastro.sexo, cadastro.jogoufacil, cadastro.jogounormal, cadastro.jogoudificil, (cadastro.jogoufacil+cadastro.jogounormal+cadastro.jogoudificil), cadastro.ganhoufacil, cadastro.ganhounormal, cadastro.ganhoudificil, (cadastro.ganhoufacil+cadastro.ganhounormal+cadastro.ganhoudificil), cadastro.perdeufacil, cadastro.perdeunormal, cadastro.perdeudificil, (cadastro.perdeufacil+cadastro.perdeunormal+cadastro.perdeudificil));
+        }
+    }
+        return 0;
+    }
